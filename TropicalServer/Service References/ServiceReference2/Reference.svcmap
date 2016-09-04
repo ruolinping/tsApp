@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="b77f0691-cc5e-4cfa-b87a-fbe160f750bb" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>false</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:52689/WcfServiceTablet" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="WcfServiceTablet.xsd" MetadataType="Schema" ID="90db231c-d759-4a29-816e-8bc53ab5cee1" SourceId="1" SourceUrl="http://localhost:52689/WcfServiceTablet?xsd=xsd2" />
+    <MetadataFile FileName="WcfServiceTablet1.xsd" MetadataType="Schema" ID="353ac912-76a4-4006-9e1e-8f44d8a70432" SourceId="1" SourceUrl="http://localhost:52689/WcfServiceTablet?xsd=xsd0" />
+    <MetadataFile FileName="WcfServiceTablet.disco" MetadataType="Disco" ID="2ee53672-d80b-4006-9588-23a6163ffde9" SourceId="1" SourceUrl="http://localhost:52689/WcfServiceTablet?disco" />
+    <MetadataFile FileName="Service1.wsdl" MetadataType="Wsdl" ID="dfc6f472-2096-4569-9a53-5e5ec528c837" SourceId="1" SourceUrl="http://localhost:52689/WcfServiceTablet?wsdl" />
+    <MetadataFile FileName="WcfServiceTablet2.xsd" MetadataType="Schema" ID="14d79290-cd01-40f6-bf3f-4af7f1b825c9" SourceId="1" SourceUrl="http://localhost:52689/WcfServiceTablet?xsd=xsd3" />
+    <MetadataFile FileName="WcfServiceTablet3.xsd" MetadataType="Schema" ID="91e8c30a-cc8d-4569-b531-56203e9a9576" SourceId="1" SourceUrl="http://localhost:52689/WcfServiceTablet?xsd=xsd1" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

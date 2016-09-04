@@ -1,0 +1,79 @@
+﻿/* Products
+----------------------------------------------------------*/
+
+.productCategories
+{
+    width: 200px;
+    height:600px;
+    float:left;
+    padding-left:auto;
+    padding-right:auto;
+    display:inline;
+}
+
+.productCategoriesLabel
+{
+    margin-top:5px;
+    width:200px;
+    font-size:15px;
+    background-color:#0033CC;
+    text-align:center;    
+    color:white;
+    
+}
+.productCategoriesButton{
+    background-color:#307D7E;
+     margin-top:40px;
+    font-weight:bold;
+    color:white;
+    border-color:#00CCFF;
+}
+.productCategoriesButton:hover
+{
+    background-color:#ffffff;
+    color:Black;
+}
+.imageStyle
+{
+    width:150px;
+    height:18px;
+    margin:5px 0;
+}
+
+.chartdisplay
+{
+    padding:10px;
+    overflow:auto;
+    background-color:#FFFFFF;
+
+}
+
+.dataGrid
+{
+    margin:5px;
+    color:Black;
+    font-family:Calibri;
+    font-size:12px;   
+    border-color:black;
+    width:768px;
+}
+.chartHeaderStyle
+{
+    background-color:#307D7E;
+    font-weight:bold;
+    color:white;
+    text-align:left;    
+}
+.chartItemStyle
+{
+    background-color:#98AFC7;
+    color:Black;
+    text-align:left;
+    height:30px;
+}
+.chartAlternatingItemStyle
+{    
+    background-color:#C6DEFF;
+    color:black;    
+    height:30px;
+}

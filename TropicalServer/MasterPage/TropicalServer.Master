@@ -1,0 +1,56 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="TropicalServer.master.cs" Inherits="TropicalServer.MasterPage.TropicalServer" %>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head id="Head" runat="server">
+    <title></title>
+    <link href="~/AppThemes/TropicalStyles/Site.css" rel="stylesheet" type="text/css" />
+    <link href="~/AppThemes/TropicalStyles/Products.css" rel="stylesheet" type="text/css" />
+    <link href="~/AppThemes/TropicalStyles/Orders.css" rel="stylesheet" type="text/css" />
+    
+	<link href="//ajax.googleapis.com/ajax/libs/jqueryui/1.11.1/themes/ui-darkness/jquery-ui.min.css" rel="stylesheet"/>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+     <script type="text/javascript" src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/ui/1.12.0/jquery-ui.js"></script>
+    <script type="text/javascript" src="../Scripts/jquery.unobtrusive-ajax.js"></script>
+    <form id="Form" runat="server">
+
+    <div class="page">
+        <div class="header">            
+            <div class="imageDisplay">
+                <asp:Image ID="Image" runat="server" 
+                     CssClass="imageHeader" ImageUrl="~/Images/HeaderTropicalServer.png" />          
+            </div>
+            <div class="clear menuLink">
+                <asp:Menu ID="NavigationMenu" runat="server" CssClass="menu" EnableViewState="false" 
+                          IncludeStyleBlock="false" Orientation="Horizontal">
+                    <Items>
+                        <asp:MenuItem NavigateUrl="~/UI/Products.aspx" Text="Products"/>
+                        <asp:MenuItem NavigateUrl="~/UI/Orders2.aspx" Text="Orders"/>
+
+                      <%--  <asp:MenuItem NavigateUrl="~/Settings.aspx" Text="Settings"/>
+                        <asp:MenuItem NavigateUrl="~/Routes.aspx" Text="Routes"/>--%>
+                    </Items>
+                </asp:Menu>
+                <asp:LinkButton Text="log out" OnClick="Unnamed_Click" runat="server"/>
+            </div>
+        </div>
+
+        <div class="main">
+
+            <asp:ContentPlaceHolder ID="MainContent" runat="server"/>
+        </div>
+
+    </div>
+<%--    <div class="footer">
+        
+    </div>--%>
+    </form>
+</body>
+</html>
